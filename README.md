@@ -8,7 +8,7 @@ Smart Notepad is a Python-based note-taking application designed for interactive
 - **Language Translation:** Translate notes between languages on demand using Google’s Translate API. The `googletrans` library provides free translation services in Python, so users can instantly convert a note’s language with a single command.  
 - **Data Encryption:** Secure sensitive notes with encryption before saving. Smart Notepad uses the Caesar Cipher technique to encrypt and decrypt text, ensuring that stored notes remain confidential.  
 - **Graphical User Interface:** A clean, intuitive GUI built with Tkinter offers menu options (File, Edit, Tools, Help) and buttons for all features. The design follows standard desktop-notepad layouts but adds controls for the advanced functions above.  
-- **Database Backend:** Notes can be saved and retrieved from an Oracle database for persistence. The `cx_Oracle` (or `python-oracledb`) module is used to connect to Oracle DB instances, allowing notes matadata or cradentials (eg. owner name, password) to be stored in a structured database table and the file is saved on the system and when tried to open ask for the cradential to authenticate the owner.  
+- **Database Backend:** Notes can be saved and retrieved from an Oracle database for persistence. The `cx_Oracle` (or `python-oracledb`) module is used to connect to Oracle DB instances, allowing notes metadata or credentials (eg, owner name, password) to be stored in a structured database table and the file is saved on the system, and when it is tried to open asks for the credentials to authenticate the owner.  
  
 
 ## Technologies Used  
@@ -18,7 +18,7 @@ Smart Notepad is a Python-based note-taking application designed for interactive
 - **pyaudio:** Required for microphone input.  
 - **googletrans:** Free Python library for Google Translate API (language translation).  
 - **cryptography:** Python library offering encryption primitives (used here for note encryption).   
-- **Oracle Database (cx_Oracle or oracledb):** Database backend for storing notes credentials used to access the file, accessed via Python’s cx_Oracle module.  
+- **Oracle Database (cx_Oracle or oracledb):** Database backend for storing note credentials used to access the file, accessed via Python’s cx_Oracle module.  
 - **Other Utilities:** Standard libraries and any required third-party packages listed in `requirements.txt`.  
 
 ## Setup and Installation  
@@ -34,7 +34,7 @@ Smart Notepad is a Python-based note-taking application designed for interactive
    pip install -r requirements.txt
    ```  
    This will install required libraries such as Tkinter (usually included with Python), `speechrecognition`, `pyaudio`, `googletrans`, and `cx_Oracle`, among others.  
-3. **Configure Database:** Ensure an Oracle database is accessible. Create a table (e.g. `notes`) for storing the note matadata. Update the database connection parameters in the code or a config file (username, password, DSN).  
+3. **Configure Database:** Ensure an Oracle database is accessible. Create a table (e.g., `notes`) for storing the note metadata. Update the database connection parameters in the code or a config file (username, password, DSN).  
 4. **Run the application:**  
    ```bash
    python NotePadView.py
@@ -46,7 +46,7 @@ After launching Smart Notepad, you can use its features as follows:
 
 - **Typing and Editing:** Start a new note by typing into the text area. Use the menu (File → New/Open/Save) or toolbar buttons to create, open, and save notes.  
 - **Speech-to-Text Input:** Click the “Record” or microphone button and speak clearly. The `speech_recognition` library will capture the audio and insert the transcribed text into the note.  
-- **Translation:** To translate the current note, click the “Translate” button and select a target language (e.g. French, Spanish). Internally, the app uses `googletrans`. For example:  
+- **Translation:** To translate the current note, click the “Translate” button and select a target language (e.g., French, Spanish). Internally, the app uses `googletrans`. For example:  
   ```python
   from googletrans import Translator
 
@@ -85,7 +85,8 @@ Secure Files:
 <img width="1020" height="604" alt="image" src="https://github.com/user-attachments/assets/a747cf20-156d-455f-a898-2c70f71b788b" />
 
 Font Color:
-<img width="1020" height="604" alt="image" src="https://github.com/user-attachments/assets/3d1c0207-1603-47c1-b1d5-20e633783091" />
+<img width="1020" height="604" alt="image" src="https://github.com/user-attachments/assets/ce8b6bad-bfc9-46ff-9081-73d0170de3e0" />
+
 
 Language Translator 1:
 <img width="1020" height="670" alt="image" src="https://github.com/user-attachments/assets/9062e0c2-032a-4abb-ac5a-0d4351489bcb" />
@@ -94,7 +95,8 @@ Language Translator 2:
 <img width="1020" height="578" alt="image" src="https://github.com/user-attachments/assets/162f6cf3-0c60-4a6e-a9c6-f10ab23721eb" />
 
 Open file:
-<img width="1020" height="670" alt="image" src="https://github.com/user-attachments/assets/97998e7a-f9b5-42bb-9a1f-c3efadf69ef6" />
+<img width="1020" height="662" alt="image" src="https://github.com/user-attachments/assets/36a1c716-d92b-43ef-8c58-703a6772fd4a" />
+
 
 Find and Replace:
 <img width="1147" height="805" alt="image" src="https://github.com/user-attachments/assets/05a1afb3-a3eb-4203-9e9d-4f7190b8eabf" />
