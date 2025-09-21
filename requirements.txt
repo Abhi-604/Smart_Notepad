@@ -1,0 +1,25 @@
+# GUI
+tk
+
+# Voice recognition
+SpeechRecognition
+pyaudio
+
+# Text-to-Speech (choose one or both depending on what you used)
+pyttsx3
+gTTS
+
+# Translation
+googletrans==4.0.0-rc1   # latest stable working release
+
+# Encryption
+cryptography
+
+# Image processing
+opencv-python
+
+# Oracle Database
+cx_Oracle   # or 'oracledb' if you switched to the new library
+
+# Other utilities
+numpy
