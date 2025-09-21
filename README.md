@@ -61,3 +61,45 @@ After launching Smart Notepad, you can use its features as follows:
 
 ## Target Audience  
 Smart Notepad is intended for computer science students, developers, or technically proficient users who want a powerful note-taking tool. Its feature set (speech-to-text handling, database usage, and encryption) assumes a technical background. This project serves as both a productivity app and a learning example for combining GUI programming with advanced Python libraries.
+
+
+##Project screenshots
+
+First UI window:
+<img width="1103" height="653" alt="image" src="https://github.com/user-attachments/assets/7bb1231a-e8b1-455d-a1eb-225e730c793b" />
+
+File Module:
+<img width="974" height="810" alt="image" src="https://github.com/user-attachments/assets/a4514fa6-2076-48ab-9eb5-0df494b2dd12" />
+
+Edit Module:
+<img width="1020" height="607" alt="image" src="https://github.com/user-attachments/assets/a6534499-7da4-49d1-affd-a34c9469f2ce" />
+
+View Module:
+<img width="1020" height="607" alt="image" src="https://github.com/user-attachments/assets/34ca59f6-1621-411c-8df2-9950ced6f0ef" />
+
+Color Theme:
+<img width="999" height="682" alt="image" src="https://github.com/user-attachments/assets/14f91ecd-4ace-499a-b4c8-a323179b55f2" />
+
+
+Secure Files:
+<img width="1020" height="604" alt="image" src="https://github.com/user-attachments/assets/a747cf20-156d-455f-a898-2c70f71b788b" />
+
+Font Color:
+<img width="1020" height="604" alt="image" src="https://github.com/user-attachments/assets/3d1c0207-1603-47c1-b1d5-20e633783091" />
+
+Language Translator 1:
+<img width="1020" height="670" alt="image" src="https://github.com/user-attachments/assets/9062e0c2-032a-4abb-ac5a-0d4351489bcb" />
+
+Language Translator 2:
+<img width="1020" height="578" alt="image" src="https://github.com/user-attachments/assets/162f6cf3-0c60-4a6e-a9c6-f10ab23721eb" />
+
+Open file:
+<img width="1020" height="670" alt="image" src="https://github.com/user-attachments/assets/97998e7a-f9b5-42bb-9a1f-c3efadf69ef6" />
+
+Find and Replace:
+<img width="1147" height="805" alt="image" src="https://github.com/user-attachments/assets/05a1afb3-a3eb-4203-9e9d-4f7190b8eabf" />
+
+Change Theme:
+<img width="1020" height="616" alt="image" src="https://github.com/user-attachments/assets/10c4ba38-cb74-42e7-968e-4b8e51c993f7" />
+
+
